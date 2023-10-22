@@ -2,12 +2,18 @@ import React from "react";
 
 type GreetProps = {
   name: string;
+  messageCount: number;
+  isLoggin: boolean;
 };
 
-export const Greet = ({ name }: GreetProps) => {
+export const Greet = ({ name, messageCount, isLoggin }: GreetProps) => {
   return (
     <div>
-      <h2>Welcome {name}</h2>
+      <h2>
+        {isLoggin
+          ? `Welcome {name}. You have {messageCount} unreads messages.`
+          : "Welcome guest"}
+      </h2>
     </div>
   );
 };
