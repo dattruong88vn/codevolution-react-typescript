@@ -1,0 +1,8 @@
+REACT + TYPESCRIPT
+
+    1.  Tại sao cần TypeScript?
+
+        -   Với việc kiểm tra kiểu dữ liễu tĩnh, bạn sẽ biết được một số lỗi tiềm năng trong quá trình code. Việc này sẽ tốt hơn việc phải vào browser và check lỗi khi run code.
+        -   Cung cấp một cách tốt hơn để có thể mô tả được thành phần của một object, và từ đó có thể cung cấp documentation tốt hơn cũng như là được gợi ý autocomplete các thuộc tính của object đó.ß
+        -   Giúp cho quá trình mở rộng source code cũng như maintenance một cách dễ dàng hơn.
+        
