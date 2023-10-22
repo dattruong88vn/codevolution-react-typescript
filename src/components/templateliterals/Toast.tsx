@@ -2,7 +2,7 @@
  * Position can be one of
  * "left-center" | "left-top" | "left-bottom" |
  * "right-center" | "right-top" | "right-bottom" |
- * "center-center" | "center-top" | "center-bottom" |
+ * "center" | "center-top" | "center-bottom" |
  *
  */
 
